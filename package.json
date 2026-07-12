@@ -1,24 +1,22 @@
 {
-	"name": "clearline-dark",
-	"displayName": "Clearline Dark",
+	"name": "clearline",
+	"displayName": "Clearline",
 	"description": "A dark theme designed for readability",
 	"icon": "images/clearline-dark.png",
-	"version": "1.0.0",
-	"publisher": "tom0411",
+	"version": "1.0.2",
+	"publisher": "tomp4",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tom0411/clearline-dark"
+		"url": "https://github.com/tom0411/clearline"
 	},
 	"engines": {
 		"vscode": "^1.79.0"
 	},
 	"keywords": [
 		"theme",
-		"dark theme",
 		"clearline",
 		"clearline dark",
-		"readable theme",
-		"tom0411"
+		"readable theme"
 	],
 	"categories": [
 		"Themes"
@@ -26,9 +24,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Clearline Dark",
+				"label": "Clearline-Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/clearline-dark-color-theme.json"
+				"path": "./themes/clearline-dark.json"
 			}
 		]
 	}

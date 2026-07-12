@@ -6,5 +6,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.0.2]
+
+- Regenerated README with fixed preview layout and installation steps
+
+## [1.0.1]
+
+- Added README preview screenshots
+
+## [1.0.0]
+
 - Renamed to Clearline Dark
 - Initial release
