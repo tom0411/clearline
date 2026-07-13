@@ -1,7 +1,7 @@
 {
 	"name": "clearline",
 	"displayName": "Clearline",
-	"description": "A dark theme designed for readability",
+	"description": "Designed for readability",
 	"icon": "images/clearline-dark.png",
 	"version": "1.0.2",
 	"publisher": "tomp4",
@@ -16,6 +16,7 @@
 		"theme",
 		"clearline",
 		"clearline dark",
+		"clearline grey",
 		"readable theme"
 	],
 	"categories": [
@@ -27,6 +28,11 @@
 				"label": "Clearline-Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/clearline-dark.json"
+			},
+			{
+				"label": "Clearline-Grey",
+				"uiTheme": "vs-dark",
+				"path": "./themes/clearline-grey.json"
 			}
 		]
 	}

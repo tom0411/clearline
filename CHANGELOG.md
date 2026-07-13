@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Added Clearline-Grey theme (same syntax colors, grey backgrounds)
+
 ## [1.0.2]
 
 - Regenerated README with fixed preview layout and installation steps

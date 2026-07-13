@@ -1,5 +1,5 @@
 {
-  "name": "Clearline Dark",
+  "name": "Clearline Grey",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -1917,7 +1917,7 @@
     "activityBarBadge.background": "#0782cd",
     "activityBar.border": "#00000000",
     "activityBar.activeBackground": "#202226",
-    "sideBar.background": "#202226",
+    "sideBar.background": "#363636",
     "sideBar.foreground": "#adc2bd",
     "sideBarSectionHeader.background": "#0000001a",
     "sideBarSectionHeader.foreground": "#0782cd",
@@ -1979,7 +1979,7 @@
     "inputOption.activeForeground": "#ffffff",
     "input.placeholderForeground": "#606066",
     "textLink.foreground": "#386fa4",
-    "editor.background": "#000000",
+    "editor.background": "#363636",
     "editor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#606066",
     "editorCursor.foreground": "#ffffff",
@@ -2022,7 +2022,7 @@
     "editorInfo.foreground": "#659dd3",
     "editorInfo.background": "#00000000",
     "editorInfo.border": "#00000000",
-    "editorGutter.background": "#000000",
+    "editorGutter.background": "#363636",
     "editorGutter.modifiedBackground": "#386fa4",
     "editorGutter.addedBackground": "#00ff6a99",
     "editorGutter.deletedBackground": "#ff2d2d99",
