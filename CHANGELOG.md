@@ -6,7 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Added Clearline-Grey theme (same syntax colors, grey backgrounds)
+## [1.1.0]
+
+- Added Clearline-Grey theme (editor and sidebar share a grey background)
+- Import/module names render white across languages
+- Variable names render white across languages
+- Added Grey theme README preview
 
 ## [1.0.2]
 

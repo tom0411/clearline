@@ -32,6 +32,15 @@
     },
     "parameter": {
       "foreground": "#ffffff"
+    },
+    "property": {
+      "foreground": "#f4a82b"
+    },
+    "property.declaration": {
+      "foreground": "#f4a82b"
+    },
+    "member": {
+      "foreground": "#f4a82b"
     }
   },
   "tokenColors": [
@@ -355,9 +364,55 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "variable.other.readwrite,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Object keys",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object.member",
+        "meta.property.object",
+        "meta.structure.dictionary.key",
+        "meta.structure.dictionary.key.json",
+        "meta.mapping.key",
+        "meta.mapping.key string",
+        "meta.map.key",
+        "support.type.property-name",
+        "support.type.property-name.json",
+        "support.type.property-name.json.comments",
+        "support.type.property-name.table",
+        "support.type.property-name.array",
+        "support.type.property-name.table.toml",
+        "support.type.property-name.array.toml",
+        "string.unquoted.key",
+        "string.unquoted.plain.out.yaml",
+        "entity.name.tag.yaml",
+        "entity.name.type.toml",
+        "variable.other.property",
+        "variable.other.object.property",
+        "variable.other.member",
+        "punctuation.support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#f4a82b"
+      }
+    },
+    {
+      "name": "Object properties",
+      "scope": [
+        "support.variable.property",
+        "support.variable.property.js",
+        "support.variable.property.ts",
+        "support.variable.property.jsx",
+        "support.variable.property.tsx",
+        "meta.property.name",
+        "meta.definition.property"
+      ],
+      "settings": {
+        "foreground": "#f4a82b"
       }
     },
     {
@@ -734,7 +789,7 @@
     },
     {
       "name": "Support type",
-      "scope": "support.type.property-name",
+      "scope": "support.type.property-name.css,support.type.vendored.property-name.css",
       "settings": {
         "foreground": "#58ffd6"
       }
@@ -1895,6 +1950,35 @@
       ],
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Object keys (all languages)",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object.member",
+        "meta.property.object",
+        "meta.structure.dictionary.key",
+        "meta.mapping.key",
+        "meta.map.key",
+        "support.type.property-name",
+        "support.type.property-name.json",
+        "support.type.property-name.table",
+        "support.type.property-name.array",
+        "string.unquoted.key",
+        "string.unquoted.plain.out.yaml",
+        "entity.name.tag.yaml",
+        "entity.name.type.toml",
+        "variable.other.property",
+        "variable.other.object.property",
+        "variable.other.member",
+        "support.variable.property",
+        "meta.property.name",
+        "meta.definition.property",
+        "source.json meta.structure.dictionary.json > string.quoted.json"
+      ],
+      "settings": {
+        "foreground": "#f4a82b"
       }
     },
     {
