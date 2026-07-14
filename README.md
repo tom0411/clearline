@@ -1,6 +1,6 @@
 # Clearline
 
-Designed for readability — **Clearline-Dark** and **Clearline-Grey**.
+Designed for readability — **Clearline-Dark**, **Clearline-Grey**, and **Clearline-Slate**.
 
 ## Preview
 
@@ -15,6 +15,11 @@ Designed for readability — **Clearline-Dark** and **Clearline-Grey**.
 <p align="center">
   <img src="images/preview-grey.jpg" alt="Clearline Grey theme preview with package.json" width="780">
 </p>
+
+| Theme | Editor / sidebar |
+|---|---|
+| **Clearline-Grey** | `#363636` |
+| **Clearline-Slate** | `#303039` |
 
 ## Credits
 

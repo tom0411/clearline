@@ -1,5 +1,5 @@
 {
-  "name": "Clearline Grey",
+  "name": "Clearline Slate",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -2001,7 +2001,7 @@
     "activityBarBadge.background": "#0782cd",
     "activityBar.border": "#00000000",
     "activityBar.activeBackground": "#202226",
-    "sideBar.background": "#363636",
+    "sideBar.background": "#303039",
     "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#0000001a",
     "sideBarSectionHeader.foreground": "#ffffff",
@@ -2063,7 +2063,7 @@
     "inputOption.activeForeground": "#ffffff",
     "input.placeholderForeground": "#606066",
     "textLink.foreground": "#386fa4",
-    "editor.background": "#363636",
+    "editor.background": "#303039",
     "editor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#606066",
     "editorCursor.foreground": "#ffffff",
@@ -2106,7 +2106,7 @@
     "editorInfo.foreground": "#659dd3",
     "editorInfo.background": "#00000000",
     "editorInfo.border": "#00000000",
-    "editorGutter.background": "#363636",
+    "editorGutter.background": "#303039",
     "editorGutter.modifiedBackground": "#386fa4",
     "editorGutter.addedBackground": "#00ff6a99",
     "editorGutter.deletedBackground": "#ff2d2d99",

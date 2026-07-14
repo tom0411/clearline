@@ -6,6 +6,20 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.1.2]
+
+- Added **Clearline-Slate** theme (editor/sidebar `#303039`)
+- Kept **Clearline-Grey** with original editor/sidebar `#363636`
+- White activity bar / sidebar chrome text across themes
+- Object keys render orange across languages
+- Sidebar and git file-name colors refined for readability
+
+## [1.1.1]
+
+- Object keys render orange across languages
+- Sidebar and git file-name colors refined for readability
+- Clearline-Grey editor/sidebar surface tweaks
+
 ## [1.1.0]
 
 - Added Clearline-Grey theme (editor and sidebar share a grey background)
