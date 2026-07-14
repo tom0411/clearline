@@ -3,7 +3,7 @@
 	"displayName": "Clearline",
 	"description": "Designed for readability",
 	"icon": "images/clearline-dark.png",
-	"version": "1.1.2",
+	"version": "1.1.4",
 	"publisher": "tomp4",
 	"repository": {
 		"type": "git",

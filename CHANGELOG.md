@@ -6,7 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [1.1.2]
+## [1.1.4]
+
+- Stronger diff insert/delete highlights across Dark, Grey, and Slate
+
+## [1.1.3]
 
 - Added **Clearline-Slate** theme (editor/sidebar `#303039`)
 - Kept **Clearline-Grey** with original editor/sidebar `#363636`
