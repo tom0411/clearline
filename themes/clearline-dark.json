@@ -2132,7 +2132,7 @@
     "badge.background": "#0782cd",
     "badge.foreground": "#000000",
     "terminal.foreground": "#cccccc",
-    "terminal.selectionBackground": "#ffffff10",
+    "terminal.selectionBackground": "#a855f780",
     "terminalCursor.background": "#0070b4",
     "terminalCursor.foreground": "#ffffff",
     "terminal.border": "#ffffff1a",
@@ -2258,6 +2258,9 @@
     "activityBar.activeBorder": "#ffffff",
     "activityBarTop.foreground": "#ffffff",
     "activityBarTop.inactiveForeground": "#ffffffb3",
-    "activityBarTop.activeBorder": "#ffffff"
+    "activityBarTop.activeBorder": "#ffffff",
+    "terminal.inactiveSelectionBackground": "#a855f740",
+    "terminal.findMatchBackground": "#c084fc99",
+    "terminal.findMatchHighlightBackground": "#a855f755"
   }
 }
