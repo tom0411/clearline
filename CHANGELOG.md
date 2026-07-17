@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.1.5]
+
+- Purple terminal selection and find-match highlights across Dark, Grey, and Slate
+- Notebook code cell background set to black (Grey/Slate) and Grey `#363636` (Dark)
+- Diff insert/delete highlights rebalanced to a mid-brightness green/red
+
 ## [1.1.4]
 
 - Stronger diff insert/delete highlights across Dark, Grey, and Slate
