@@ -1,19 +1,37 @@
 {
 	"name": "clearline",
 	"displayName": "Clearline",
-	"description": "Designed for readability",
+	"description": "Designed for readability — Clearline Dark, Grey, and Slate themes",
 	"icon": "images/clearline.jpeg",
 	"version": "1.1.5",
 	"publisher": "tomp4",
+	"license": "CC-BY-NC-SA-4.0",
+	"author": "tomp4",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/tom0411/clearline"
+	},
+	"homepage": "https://tom0411.github.io/clearline/",
+	"bugs": {
+		"url": "https://github.com/tom0411/clearline/issues"
+	},
+	"files": [
+		"themes",
+		"LICENSE.md"
+	],
+	"exports": {
+		".": "./themes/clearline-dark.json",
+		"./dark": "./themes/clearline-dark.json",
+		"./grey": "./themes/clearline-grey.json",
+		"./slate": "./themes/clearline-slate.json",
+		"./package.json": "./package.json"
 	},
 	"engines": {
 		"vscode": "^1.79.0"
 	},
 	"keywords": [
 		"theme",
+		"vscode-theme",
 		"clearline",
 		"clearline dark",
 		"clearline grey",
@@ -41,10 +59,5 @@
 				"path": "./themes/clearline-slate.json"
 			}
 		]
-	},
-	"__metadata": {
-		"installedTimestamp": 1784043168318,
-		"targetPlatform": "undefined",
-		"size": 1445647
 	}
 }

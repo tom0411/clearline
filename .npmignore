@@ -1,0 +1,6 @@
+*.vsix
+images/
+.DS_Store
+.gitattributes
+vsc-extension-quickstart.md
+CHANGELOG.md

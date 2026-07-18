@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clearline — Readable VS Code themes</title>
+    <meta
+      name="description"
+      content="Clearline Dark, Grey, and Slate — VS Code / Cursor themes designed for readability."
+    />
+    <link rel="icon" href="images/clearline.jpeg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Saira+Condensed:wght@600;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <img
+          class="hero__logo"
+          src="images/clearline.jpeg"
+          alt="Clearline"
+          width="160"
+          height="160"
+        />
+        <p class="hero__tagline"><span>Designed for readability</span></p>
+        <div class="hero__actions">
+          <a
+            class="btn btn--primary"
+            href="https://marketplace.visualstudio.com/items?itemName=tomp4.clearline"
+            >Marketplace</a
+          >
+          <a
+            class="btn btn--ghost"
+            href="https://open-vsx.org/extension/tomp4/clearline"
+            >Open VSX</a
+          >
+          <a class="btn btn--ghost" href="https://github.com/tom0411/clearline"
+            >GitHub</a
+          >
+          <a
+            class="btn btn--stat"
+            
+            id="stat-stars"
+          >
+            <svg class="btn__icon" viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"
+              />
+            </svg>
+            <span class="btn__value" data-stat="stars">—</span>
+            <span class="btn__label">stars</span>
+          </a>
+          <a
+            class="btn btn--stat"
+            
+            id="stat-downloads"
+          >
+            <svg class="btn__icon" viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M2.75 14a.75.75 0 0 1 0-1.5h10.5a.75.75 0 0 1 0 1.5H2.75Zm7.47-7.72a.75.75 0 0 0-1.06 0L8.75 6.69V1.75a.75.75 0 0 0-1.5 0v4.94L5.84 5.28a.75.75 0 0 0-1.06 1.06l2.75 2.75a.75.75 0 0 0 1.06 0l2.75-2.75a.75.75 0 0 0 0-1.06Z"
+              />
+            </svg>
+            <span class="btn__value" data-stat="downloads">—</span>
+            <span class="btn__label">downloads</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="preview" class="section preview">
+        <div class="section__head">
+          <h2>Theme preview</h2>
+          <p>Switch between Dark, Grey, and Slate.</p>
+        </div>
+
+        <div class="theme-tabs" role="tablist" aria-label="Theme variants">
+          <button
+            class="theme-tabs__btn is-active"
+            role="tab"
+            aria-selected="true"
+            data-theme="dark"
+          >
+            Dark
+          </button>
+          <button
+            class="theme-tabs__btn"
+            role="tab"
+            aria-selected="false"
+            data-theme="grey"
+          >
+            Grey
+          </button>
+          <button
+            class="theme-tabs__btn"
+            role="tab"
+            aria-selected="false"
+            data-theme="slate"
+          >
+            Slate
+          </button>
+        </div>
+
+        <div
+          class="editor"
+          id="editor-preview"
+          data-active="dark"
+          aria-live="polite"
+        >
+          <aside class="editor__sidebar" aria-hidden="true">
+            <div class="editor__file is-active">preview.ts</div>
+   
+          </aside>
+          <div class="editor__main">
+            <div class="editor__tabs" aria-hidden="true">
+              <span class="editor__tab is-active">preview.ts</span>
+            </div>
+            <pre class="editor__code" aria-label="Code preview with added and removed lines"><code><span class="code-line"><span class="tok-kw">type</span> <span class="tok-type">Theme</span> = <span class="tok-str">'dark'</span> | <span class="tok-str">'grey'</span> | <span class="tok-str">'slate'</span>;</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="tok-cmt">// Soft accents that stay readable for long sessions</span></span>
+<span class="code-line"><span class="tok-kw">const</span> <span class="tok-var">accents</span>: <span class="tok-type">Record</span>&lt;<span class="tok-type">Theme</span>, <span class="tok-type">string</span>&gt; = {</span>
+<span class="code-line code-line--removed" data-marker="-">  <span class="tok-key">grey</span>: <span class="tok-str">'#ce9178'</span>,</span>
+<span class="code-line code-line--added" data-marker="+">  <span class="tok-key">dark</span>: <span class="tok-str">'#2ec4c6'</span>,</span>
+<span class="code-line code-line--added" data-marker="+">  <span class="tok-key">grey</span>: <span class="tok-str">'#e24285'</span>,</span>
+<span class="code-line">  <span class="tok-key">slate</span>: <span class="tok-str">'#f4a82b'</span>,</span>
+<span class="code-line">};</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="tok-kw">function</span> <span class="tok-fn">pickAccent</span>(<span class="tok-var">name</span>: <span class="tok-type">Theme</span>): <span class="tok-type">string</span> {</span>
+<span class="code-line">  <span class="tok-kw">return</span> <span class="tok-var">accents</span>[<span class="tok-var">name</span>];</span>
+<span class="code-line">}</span></code></pre>
+          </div>
+        </div>
+      </section>
+<!-- 
+      <section id="install" class="section install">
+        <div class="section__head">
+          <h2>Install</h2>
+          <p>Use as a VS Code / Cursor theme or import the JSON from npm.</p>
+        </div>
+
+        <h3>npm</h3>
+        <pre class="snippet"><code>npm install clearline</code></pre>
+
+        <h3>Usage</h3>
+        <pre class="snippet"><code>import dark from 'clearline/dark';
+import grey from 'clearline/grey';
+import slate from 'clearline/slate';
+
+// or default export (Clearline Dark)
+import dark from 'clearline';</code></pre>
+
+        <h3>VS Code / Cursor</h3>
+        <p class="install__note">
+          Install from the
+          <a href="https://marketplace.visualstudio.com/items?itemName=tomp4.clearline"
+            >Marketplace</a
+          >, or from a local VSIX:
+        </p>
+        <pre class="snippet"><code>code --install-extension clearline-1.1.5.vsix</code></pre>
+      </section> -->
+
+      <!--
+      <section id="support" class="section support">
+        <div class="section__head">
+          <h2>Support</h2>
+          <p>If Clearline helps your workflow, you can buy me a coffee.</p>
+        </div>
+        <a class="btn btn--coffee is-placeholder" href="#" aria-disabled="true"
+          >Buy me a coffee</a
+        >
+        <p class="support__hint">Link coming soon</p>
+      </section>
+      -->
+    </main>
+
+    <footer class="footer">
+      <p>
+        Licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+          >CC BY-NC-SA 4.0</a
+        >. Based on
+        <a href="https://github.com/0xJariel/ChatGP-Theme">ChatGP-Theme</a>.
+      </p>
+      <p>
+        <a href="https://github.com/tom0411/clearline">tom0411/clearline</a>
+      </p>
+    </footer>
+
+    <script src="preview.js"></script>
+    <script src="stats.js"></script>
+  </body>
+</html>
