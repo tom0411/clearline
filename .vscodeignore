@@ -1,0 +1,6 @@
+*.vsix
+.DS_Store
+.gitattributes
+.npmignore
+docs/**
+vsc-extension-quickstart.md

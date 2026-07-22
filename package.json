@@ -1,9 +1,9 @@
 {
 	"name": "clearline",
 	"displayName": "Clearline",
-	"description": "Designed for readability — Clearline Dark, Grey, and Slate themes",
+	"description": "Designed for readability \u2014 Clearline Dark, Grey, Slate, and White themes",
 	"icon": "images/clearline.jpeg",
-	"version": "1.1.5",
+	"version": "1.1.7",
 	"publisher": "tomp4",
 	"license": "CC-BY-NC-SA-4.0",
 	"author": "tomp4",
@@ -15,15 +15,12 @@
 	"bugs": {
 		"url": "https://github.com/tom0411/clearline/issues"
 	},
-	"files": [
-		"themes",
-		"LICENSE.md"
-	],
 	"exports": {
 		".": "./themes/clearline-dark.json",
 		"./dark": "./themes/clearline-dark.json",
 		"./grey": "./themes/clearline-grey.json",
 		"./slate": "./themes/clearline-slate.json",
+		"./white": "./themes/clearline-white.json",
 		"./package.json": "./package.json"
 	},
 	"engines": {
@@ -36,6 +33,7 @@
 		"clearline dark",
 		"clearline grey",
 		"clearline slate",
+		"clearline white",
 		"readable theme"
 	],
 	"categories": [
@@ -57,7 +55,16 @@
 				"label": "Clearline-Slate",
 				"uiTheme": "vs-dark",
 				"path": "./themes/clearline-slate.json"
+			},
+			{
+				"label": "Clearline-White",
+				"uiTheme": "vs",
+				"path": "./themes/clearline-white.json"
 			}
 		]
-	}
+	},
+	"files": [
+		"themes",
+		"LICENSE.md"
+	]
 }

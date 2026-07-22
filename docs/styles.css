@@ -342,8 +342,7 @@ img {
   color: #fff;
 }
 
-.editor__code {
-  margin: 0;
+.editor__code {  margin: 0;
   padding: 0.75rem 0;
   overflow-x: auto;
   font-family: var(--font-mono);
