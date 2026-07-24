@@ -6,6 +6,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.1.8]
+
+- Synced README logo with the GitHub Pages preview (tom0411.github.io/clearline), using an absolute image URL so it renders correctly on Marketplace, Open VSX, and GitHub
+
+## [1.1.7]
+
+- Added **Clearline-White** theme
+- Replaced purple/near-black selection colors with a readable blue across Dark, Grey, and Slate
+
 ## [1.1.5]
 
 - Purple terminal selection and find-match highlights across Dark, Grey, and Slate

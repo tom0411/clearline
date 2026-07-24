@@ -16,6 +16,21 @@
   --sidebar-bg: #202226;
   --chrome-bg: #18191b;
   --tab-bg: #303038;
+  --code-fg: #ffffff;
+  --code-file-fg: #a8a8b0;
+  --tok-kw: #439fd7;
+  --tok-str: #58ffd6;
+  --tok-var: #ffffff;
+  --tok-fn: #e24285;
+  --tok-type: #f4a82b;
+  --tok-key: #f4a82b;
+  --tok-cmt: #e8e6e380;
+  --diff-added-bg: #22c55e40;
+  --diff-removed-bg: #ef444440;
+  --diff-marker-added: #22c55e;
+  --diff-marker-removed: #ef4444;
+  --editor-line: #ffffff14;
+  --editor-active-bg: #ffffff12;
 }
 
 *,
@@ -297,22 +312,28 @@ img {
 
 .editor__sidebar {
   background: var(--sidebar-bg);
-  border-right: 1px solid var(--line);
+  border-right: 1px solid var(--editor-line);
   padding: 1rem 0.75rem;
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  transition: background 0.35s ease;
+  transition:
+    background 0.35s ease,
+    border-color 0.35s ease;
 }
 
 .editor__file {
   padding: 0.4rem 0.55rem;
-  color: #a8a8b0;
+  color: var(--code-file-fg);
   border-radius: 3px;
+  transition: color 0.35s ease;
 }
 
 .editor__file.is-active {
-  background: #ffffff12;
-  color: #fff;
+  background: var(--editor-active-bg);
+  color: var(--code-fg);
+  transition:
+    color 0.35s ease,
+    background 0.35s ease;
 }
 
 .editor__main {
@@ -348,8 +369,9 @@ img {
   font-family: var(--font-mono);
   font-size: 0.82rem;
   line-height: 1.65;
-  color: #fff;
+  color: var(--code-fg);
   flex: 1;
+  transition: color 0.35s ease;
 }
 
 .code-line {
@@ -360,11 +382,13 @@ img {
 }
 
 .code-line--added {
-  background: #22c55e40; /* diffEditor.insertedLineBackground */
+  background: var(--diff-added-bg); /* diffEditor.insertedLineBackground */
+  transition: background 0.35s ease;
 }
 
 .code-line--removed {
-  background: #ef444440; /* diffEditor.removedLineBackground */
+  background: var(--diff-removed-bg); /* diffEditor.removedLineBackground */
+  transition: background 0.35s ease;
 }
 
 .code-line--added::before,
@@ -377,40 +401,49 @@ img {
 }
 
 .code-line--added::before {
-  color: #22c55e;
+  color: var(--diff-marker-added);
+  transition: color 0.35s ease;
 }
 
 .code-line--removed::before {
-  color: #ef4444;
+  color: var(--diff-marker-removed);
+  transition: color 0.35s ease;
 }
 
 /* Token colors from themes/clearline-*.json */
 .tok-kw {
-  color: #439fd7; /* keyword / storage */
+  color: var(--tok-kw); /* keyword / storage */
+  transition: color 0.35s ease;
 }
 
 .tok-str {
-  color: #58ffd6; /* string */
+  color: var(--tok-str); /* string */
+  transition: color 0.35s ease;
 }
 
 .tok-var {
-  color: #fff; /* variable */
+  color: var(--tok-var); /* variable */
+  transition: color 0.35s ease;
 }
 
 .tok-fn {
-  color: #e24285; /* entity.name.function */
+  color: var(--tok-fn); /* entity.name.function */
+  transition: color 0.35s ease;
 }
 
 .tok-type {
-  color: #f4a82b; /* entity.name.type / support.type.primitive */
+  color: var(--tok-type); /* entity.name.type / support.type.primitive */
+  transition: color 0.35s ease;
 }
 
 .tok-key {
-  color: #f4a82b; /* meta.object-literal.key */
+  color: var(--tok-key); /* meta.object-literal.key */
+  transition: color 0.35s ease;
 }
 
 .tok-cmt {
-  color: #e8e6e380; /* comment */
+  color: var(--tok-cmt); /* comment */
+  transition: color 0.35s ease;
 }
 
 /* Install */

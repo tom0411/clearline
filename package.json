@@ -3,7 +3,7 @@
 	"displayName": "Clearline",
 	"description": "Designed for readability \u2014 Clearline Dark, Grey, Slate, and White themes",
 	"icon": "images/clearline.jpeg",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"publisher": "tomp4",
 	"license": "CC-BY-NC-SA-4.0",
 	"author": "tomp4",
@@ -62,9 +62,5 @@
 				"path": "./themes/clearline-white.json"
 			}
 		]
-	},
-	"files": [
-		"themes",
-		"LICENSE.md"
-	]
+	}
 }

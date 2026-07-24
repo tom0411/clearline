@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/clearline.jpeg" alt="Clearline" width="120" />
+  <img src="https://github.com/tom0411/clearline/raw/HEAD/images/clearline.jpeg" alt="Clearline" width="120" />
 </p>
 
 # Clearline
